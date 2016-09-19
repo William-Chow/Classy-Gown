@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_screen_color_background">
+
+    <ImageView
+        android:id="@+id/ivSplashScreenLogo"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/classylogo" />
+
+
+    <ProgressBar
+        android:id="@+id/pbSplashScreenLoading"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:progressDrawable="@drawable/circular_progress_view"
+        android:layout_above="@+id/tvSplashScreenDescription"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvSplashScreenDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:text="@string/splash_screen_copyright_description"
+        android:textSize="@dimen/_12sdp" />
+
+
+</RelativeLayout>

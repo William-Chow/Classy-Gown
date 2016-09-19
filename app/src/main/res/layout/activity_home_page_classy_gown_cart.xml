@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_cart_activity_color_background">
+
+    <RelativeLayout
+        android:id="@+id/rlMoreSubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/includeHomePageCartActivityClassyGownSubHeader"
+            layout="@layout/include_home_page_more_classy_gown_sub_header" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvCartContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_15sdp"
+        android:gravity="center"
+        android:text="@string/home_page_cart_description"
+        android:textColor="@color/home_page_cart_activity_color_text"/>
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_more_sign_up_activity_color_background">
+
+    <RelativeLayout
+        android:id="@+id/rlMoreSubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/includeHomePageMoreSignUpActivityClassyGownSubHeader"
+            layout="@layout/include_home_page_more_classy_gown_sub_header" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlMoreSubHeader"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/home_page_sign_up_round_rectangle"
+        android:hint="@string/home_page_more_account_sign_up_email_hint"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/home_page_more_sign_up_activity_color_email_password_text"
+        android:textColorHint="@color/home_page_more_sign_up_activity_color_background_hint_color"
+        android:textSize="@dimen/_14sdp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmailAddress"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/home_page_sign_up_round_rectangle"
+        android:hint="@string/home_page_more_account_sign_up_password_hint"
+        android:inputType="textPassword"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/home_page_more_sign_up_activity_color_email_password_text"
+        android:textColorHint="@color/home_page_more_sign_up_activity_color_background_hint_color"
+        android:textSize="@dimen/_14sdp" />
+
+    <RelativeLayout
+        android:id="@+id/rlRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/home_page_more_sign_up_activity_color_register_button_background">
+
+        <TextView
+            android:id="@+id/tvRegisterText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="@dimen/_15sdp"
+            android:text="@string/home_page_more_account_sign_up_register_text"
+            android:textSize="@dimen/_14sdp" />
+    </RelativeLayout>
+
+</RelativeLayout>

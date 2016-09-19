@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_more_shipping_terms_activity_color_background">
+
+    <include
+        android:id="@+id/includeHomePageMoreShippingTermsClassyGownHeader"
+        layout="@layout/include_home_page_classy_gown_header" />
+
+    <RelativeLayout
+        android:id="@+id/rlMoreSubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/includeHomePageMoreShippingTermsClassyGownHeader">
+
+        <include
+            android:id="@+id/includeHomePageMoreShippingTermsActivityClassyGownSubHeader"
+            layout="@layout/include_home_page_more_classy_gown_sub_header" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlMoreSubHeader"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/rlContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_8sdp">
+
+            <RelativeLayout
+                android:id="@+id/rlShippingContent_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/home_page_more_rectangle"
+                android:padding="@dimen/_10sdp">
+
+                <include
+                    android:id="@+id/includeShippingContent_1"
+                    layout="@layout/include_home_page_more_classy_gown_shipping_terms_content_1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlShippingContent_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlShippingContent_1"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/home_page_more_rectangle"
+                android:padding="@dimen/_10sdp">
+
+                <include
+                    android:id="@+id/includeShippingContent_2"
+                    layout="@layout/include_home_page_more_classy_gown_shipping_terms_content_2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlShippingContent_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlShippingContent_2"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/home_page_more_rectangle"
+                android:padding="@dimen/_10sdp">
+
+                <include
+                    android:id="@+id/includeShippingContent_3"
+                    layout="@layout/include_home_page_more_classy_gown_shipping_terms_content_3" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlShippingContent_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlShippingContent_3"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/home_page_more_rectangle"
+                android:padding="@dimen/_10sdp">
+
+                <include
+                    android:id="@+id/includeShippingContent_4"
+                    layout="@layout/include_home_page_more_classy_gown_shipping_terms_content_4" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

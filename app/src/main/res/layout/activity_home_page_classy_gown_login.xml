@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_order_login_color_background">
+
+    <RelativeLayout
+        android:id="@+id/rlMoreSubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/includeHomePageMoreSignUpActivityClassyGownSubHeader"
+            layout="@layout/include_home_page_more_classy_gown_sub_header" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlMainContents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlMoreSubHeader">
+
+        <EditText
+            android:id="@+id/etLoginEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_1sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/home_page_login_round_rectangle"
+            android:hint="@string/home_page_account_login_email_hint"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/_15sdp"
+            android:textColor="@color/home_page_login_activity_color_email_password_text"
+            android:textColorHint="@color/home_page_login_activity_color_background_hint_color"
+            android:textSize="@dimen/_14sdp" />
+
+        <EditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etLoginEmailAddress"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_1sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/home_page_login_round_rectangle"
+            android:hint="@string/home_page_account_login_password_hint"
+            android:inputType="textPassword"
+            android:padding="@dimen/_15sdp"
+            android:textColor="@color/home_page_login_activity_color_email_password_text"
+            android:textColorHint="@color/home_page_login_activity_color_background_hint_color"
+            android:textSize="@dimen/_14sdp" />
+
+        <RelativeLayout
+            android:id="@+id/rlLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etLoginPassword"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_1sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/home_page_login_activity_color_login_button_background">
+
+            <TextView
+                android:id="@+id/tvLoginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:padding="@dimen/_15sdp"
+                android:text="@string/home_page_account_login_login_text"
+                android:textSize="@dimen/_14sdp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlLogin"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:gravity="center"
+            android:text="@string/home_page_account_login_forgot_password"
+            android:textColor="@color/home_page_login_activity_color_url_blue"
+            android:textSize="@dimen/_12sdp" />
+
+        <RelativeLayout
+            android:id="@+id/rlSignUpAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvForgotPassword"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvNoAccountText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_page_account_login_no_account_yet"
+                android:textColor="@color/home_page_login_activity_color_text"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/tvSignUpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginLeft="@dimen/_6sdp"
+                android:layout_toEndOf="@+id/tvNoAccountText"
+                android:layout_toRightOf="@+id/tvNoAccountText"
+                android:text="@string/home_page_account_login_sign_up"
+                android:textColor="@color/home_page_login_activity_color_url_blue"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

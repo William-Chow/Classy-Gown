@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/home_page_home_product_description_activity_color_background">
+
+    <RelativeLayout
+        android:id="@+id/rlSubDescriptionContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tvDescriptionContentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/home_page_home_product_description_activity_color_text"
+            android:textSize="@dimen/_18sdp"/>
+
+        <RelativeLayout
+            android:id="@+id/rltvDescriptionContentPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDescriptionContentTitle"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:id="@+id/rlSplitPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvDescriptionContentPrice_Strike_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/home_page_home_product_description_activity_grey_color_text"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <TextView
+                    android:id="@+id/tvDescriptionContentPrice_Strike_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tvDescriptionContentPrice_Strike_1"
+                    android:layout_toRightOf="@+id/tvDescriptionContentPrice_Strike_1"
+                    android:textColor="@color/home_page_home_product_description_activity_grey_color_text"
+                    android:textSize="@dimen/_15sdp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlSplitPrice_NextLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvPrice_NextLine_Strike_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/home_page_home_product_description_activity_grey_color_text"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <TextView
+                    android:id="@+id/tvPrice_NextLine_Strike_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPrice_NextLine_Strike_1"
+                    android:textColor="@color/home_page_home_product_description_activity_grey_color_text"
+                    android:textSize="@dimen/_15sdp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvDescriptionContentPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/home_page_home_product_description_activity_grey_color_text"
+                android:textSize="@dimen/_15sdp"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvDescriptionContentSku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rltvDescriptionContentPrice"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/home_page_home_product_description_activity_grey_color_text"
+            android:textSize="@dimen/_15sdp"/>
+
+        <TextView
+            android:id="@+id/tvDescriptionContentMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDescriptionContentSku"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/home_page_home_product_description_activity_grey_color_text"
+            android:textSize="@dimen/_15sdp"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vSubDescriptionLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rlSubDescriptionContent"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:id="@+id/rlSubDescriptionContent_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vSubDescriptionLine"
+        android:layout_margin="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="@string/home_page_home_product_description_text_name_quantity"
+            android:textColor="@color/home_page_home_product_description_activity_color_text"
+            android:textSize="@dimen/_15sdp"/>
+
+        <RelativeLayout
+            android:id="@+id/rlQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvQuantity"
+            android:layout_marginTop="@dimen/_1sdp">
+
+            <include
+                android:id="@+id/includeQuantity"
+                layout="@layout/activity_home_page_classy_gown_home_product_description_content_quantity"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlSegmentGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlQuantity">
+
+            <LinearLayout
+                android:id="@+id/llSegment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--<include-->
+                    <!--android:id="@+id/includeSegment"-->
+                    <!--layout="@layout/include_home_page_classy_gown_home_product_description_segment"/>-->
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vSubDescriptionLine_2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rlSubDescriptionContent_2"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:id="@+id/rlSubDescriptionContent_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vSubDescriptionLine_2"
+        android:layout_margin="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tvDescriptionContentSizeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/home_page_home_product_description_content_3_title"
+            android:textColor="@color/home_page_home_product_description_activity_color_text"
+            android:textSize="@dimen/_18sdp"/>
+
+        <TextView
+            android:id="@+id/tvDescriptionContentSizeContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDescriptionContentSizeTitle"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/home_page_home_product_description_activity_grey_color_text"
+            android:textSize="@dimen/_15sdp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

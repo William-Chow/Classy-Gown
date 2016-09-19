@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_order_color_background">
+
+    <TextView
+        android:id="@+id/tvOrderInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="@string/home_page_order_text_view_info"
+        android:textColor="@color/home_page_color_text_order_info"/>
+
+    <RelativeLayout
+        android:id="@+id/rlLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tvOrderInfo"
+        android:background="@drawable/home_page_order_rounded_rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_14sdp"
+        android:layout_marginRight="@dimen/_14sdp">
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/home_page_order_login"
+            android:textColor="@color/home_page_order_login_text_color"
+            android:gravity="center" />
+
+    </RelativeLayout>
+    
+
+
+</RelativeLayout>

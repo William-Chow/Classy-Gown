@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/home_page_color_header_background">
+
+    <LinearLayout
+        android:id="@+id/llMainBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="@dimen/_12sdp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:src="@drawable/search_icon" />
+
+        <TextView
+            android:id="@+id/tvHomePageHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:gravity="center_horizontal"
+            android:text="@string/null_input"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/ivShop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:src="@drawable/shopping_cart" />
+    </LinearLayout>
+
+</RelativeLayout>

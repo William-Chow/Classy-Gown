@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/rlMainHome"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/home_page_home_color_background">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/mSwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/svScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:id="@+id/rlMainContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rlHomeGreyHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include
+                        android:id="@+id/includeHomePageHomeClassyGownGreyHeader"
+                        layout="@layout/include_home_page_home_classy_gown_grey_header"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlSlideImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlHomeGreyHeader">
+
+                    <com.daimajia.slider.library.SliderLayout
+                        android:id="@+id/slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_300sdp"
+                        custom:auto_cycle="true"
+                        custom:indicator_visibility="visible"
+                        custom:pager_animation="Default"
+                        custom:pager_animation_span="1100"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlRecentProductHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlSlideImage">
+
+                    <include
+                        android:id="@+id/includeHomePageHomeClassyGownRecentProductGreyHeader"
+                        layout="@layout/include_home_page_home_classy_gown_grey_recent_product_header"/>
+
+                </RelativeLayout>
+
+                <ProgressBar
+                    android:id="@+id/pbLoadingRecentProduct"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_below="@id/rlRecentProductHeader"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:indeterminate="true"
+                    android:indeterminateDrawable="@drawable/circular_progress_view"
+                    android:progressDrawable="@drawable/circular_progress_view"/>
+
+                <RelativeLayout
+                    android:id="@+id/rlRecycleView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlRecentProductHeader">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/grid_view_recycle_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

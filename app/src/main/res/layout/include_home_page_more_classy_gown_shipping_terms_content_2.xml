@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/home_page_more_shipping_terms_activity_color_background">
+
+    <TextView
+        android:id="@+id/tvPostageContent_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_shipping_title_content_2"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvPostageContent_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPostageContent_1"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_shipping_title_content_2_1"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvPostageContent_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPostageContent_2"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_shipping_title_content_2_2"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvPostageContent_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPostageContent_3"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_shipping_title_content_2_3"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+</RelativeLayout>

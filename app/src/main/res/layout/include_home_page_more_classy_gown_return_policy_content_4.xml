@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/home_page_more_return_policy_activity_color_background">
+
+    <TextView
+        android:id="@+id/tvIncorrectOrDefectiveMerchandiseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_capital_4"
+        android:textColor="@color/home_page_more_about_activity_color_header_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvIncorrectOrDefectiveMerchandiseContent_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvIncorrectOrDefectiveMerchandiseTitle"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_4"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvIncorrectOrDefectiveMerchandiseContent_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvIncorrectOrDefectiveMerchandiseContent_1"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_4_1"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvIncorrectOrDefectiveMerchandiseContent_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvIncorrectOrDefectiveMerchandiseContent_2"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_4_2"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvIncorrectOrDefectiveMerchandiseContent_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvIncorrectOrDefectiveMerchandiseContent_3"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_4_3"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/home_page_home_product_description_activity_color_background">
+
+    <TextView
+        android:id="@+id/tvTextViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/home_page_home_product_description_activity_color_text"
+        android:textSize="@dimen/_15sdp"/>
+
+    <RelativeLayout
+        android:id="@+id/rlSegmented"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTextViewInfo"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffFFFFFF"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <info.hoang8f.android.segmented.SegmentedGroup
+                    android:id="@+id/mySegmented"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:orientation="horizontal"
+                    segmentedgroup:sc_checked_text_color="#ffFF0087"
+                    segmentedgroup:sc_tint_color="@android:color/black">
+
+                </info.hoang8f.android.segmented.SegmentedGroup>
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+</RelativeLayout>

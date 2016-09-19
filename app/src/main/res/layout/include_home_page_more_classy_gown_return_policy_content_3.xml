@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/home_page_more_return_policy_activity_color_background">
+
+    <TextView
+        android:id="@+id/tvContactUsAboutAnExchangeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_capital_3"
+        android:textColor="@color/home_page_more_about_activity_color_header_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvContactUsAboutAnExchangeContent_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContactUsAboutAnExchangeTitle"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_3"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <TextView
+        android:id="@+id/tvContactUsAboutAnExchangeContent_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContactUsAboutAnExchangeContent_1"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_3_1"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvContactUsAboutAnExchangeContent_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContactUsAboutAnExchangeContent_2"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_3_2"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvContactUsAboutAnExchangeContent_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContactUsAboutAnExchangeContent_3"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_3_3"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvContactUsAboutAnExchangeContent_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContactUsAboutAnExchangeContent_4"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_3_4"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tvContactUsAboutAnExchangeContent_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContactUsAboutAnExchangeContent_5"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/home_page_more_return_policy_title_content_3_5"
+        android:textColor="@color/home_page_more_about_activity_color_content_text"
+        android:textSize="@dimen/_14sdp" />
+
+</RelativeLayout>

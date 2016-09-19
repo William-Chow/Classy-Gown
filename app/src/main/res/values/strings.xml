@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Classy Gown</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_screen_copyright_description">Copyright &#169; 2015 Classy Gown. All rights reserved.</string>
+    <string name="splash_screen_no_internet_connection_title">Oppss...</string>
+    <string name="splash_screen_no_internet_connection_description">Something went wrong! No Internet Connection.</string>
+    <string name="splash_screen_no_internet_connection_ok">Ok</string>
+
+    <string name="splash_screen_exception_e_title">Oppss...</string>
+    <string name="splash_screen_exception_e_description">Something went wrong! Please try again later.</string>
+    <string name="splash_screen_exception_e_button_text">Ok</string>
+
+    <!-- Home Page -->
+    <string name="home_page_home">HOME</string>
+    <string name="home_page_shop">SHOP</string>
+    <string name="home_page_order">ORDER</string>
+    <string name="home_page_more">MORE</string>
+    <string name="null_input">--Null--</string>
+
+    <!-- Login/Forgot Password SubHeader -->
+    <string name="sub_header_cancel">Cancel</string>
+    <string name="sub_header_back">Back</string>
+    <string name="sub_header_close">Close</string>
+
+
+    <!-- Home Page - Home -->
+    <string name="home_page_home_title_header">Classy Gown</string>
+
+    <!-- Home Page - Home Fragment -->
+    <string name="home_page_home_image_slider_title_text">FEATURED PRODUCTS</string>
+    <string name="home_page_home_image_slider_title_recent_product_text">RECENT PRODUCTS</string>
+
+    <string name="home_page_cart_header">Cart</string>
+    <string name="home_page_cart_description">Your cart is currently empty.</string>
+
+    <!-- Home Page - Product Description -->
+    <string name="home_page_home_product_description_content_3_title">Product Description</string>
+    <string name="home_page_home_product_description_text_name_color">Color</string>
+    <string name="home_page_home_product_description_text_name_size">Size</string>
+    <string name="home_page_home_product_description_text_name_quantity">Quantity</string>
+    <string name="home_page_home_product_description_text_color_dash">Color - </string>
+    <string name="home_page_home_product_description_text_size_dash">Size - </string>
+    <string name="home_page_home_product_description_text_add_to_cart">Add to Cart</string>
+    <string name="home_page_home_product_description_text_number">1</string>
+    <string name="home_page_home_product_description_error_title">Invalid Input</string>
+    <string name="home_page_home_product_description_error_description">Your input are incomplete. Please complete it, before Add to Cart.</string>
+    <string name="home_page_home_product_description_error_button_text">Dismiss</string>
+
+    <!-- Home Page - Shop -->
+    <string name="home_page_shop_title_header">Shop</string>
+
+    <!-- Home Page - Order -->
+    <string name="home_page_order_title_header">Order</string>
+    <string name="home_page_order_login">LOGIN</string>
+    <string name="home_page_order_text_view_info">Please login to view your orders.</string>
+
+    <!-- Home Page - Login -->
+    <string name="home_page_account_login_email_hint">Username or email address</string>
+    <string name="home_page_account_login_password_hint">Password</string>
+    <string name="home_page_account_login_login_text">LOGIN</string>
+    <string name="home_page_account_login_forgot_password">Forgot Password?</string>
+    <string name="home_page_account_login_no_account_yet">No account yet?</string>
+    <string name="home_page_account_login_sign_up">Sign Up</string>
+    <string name="home_page_account_login_title">Login</string>
+    <string name="home_page_account_login_cancel">Cancel</string>
+
+    <!-- Home _age - Login - ForgotPasswordActivity -->
+    <string name="home_page_account_login_forgot_password_sub_header_title">Forgot Password</string>
+    <string name="home_page_account_login_forgot_password_content">Lost your password? Please enter your username or email address. You will receive a link to create a new password via email.</string>
+    <string name="home_page_account_forgot_email_hint">Username or email address</string>
+    <string name="home_page_account_forgot_forgot_text">RESET PASSWORD</string>
+    <string name="home_page_more_account_forgot_password_error_email_messages_title">Email address is blank</string>
+    <string name="home_page_more_account_forgot_password_error_email_messages_content">Please enter an email address.</string>
+    <string name="home_page_more_account_forgot_password_error_invalid_email_messages_title">Email address is Invalid</string>
+    <string name="home_page_more_account_forgot_password_error_invalid_email_messages_content">Please enter an valid email address.</string>
+    <string name="home_page_more_account_forgot_password_error_email_messages_button">Dismiss</string>
+
+    <!-- Home Page - More -->
+    <string name="home_page_more_title_header">More</string>
+    <string name="home_page_more_question_title">Are you sure?</string>
+    <string name="home_page_more_question_description">We detected your device have installed these apps, open it?</string>
+    <string name="home_page_more_ok">OK</string>
+    <string name="home_page_more_dismiss">Dismiss</string>
+
+    <!-- Home Page - More - Sub Header -->
+    <string name="home_page_more_title_sub_header_left">More</string>
+    <string name="home_page_more_title_sub_header_title">About Classy Gown</string>
+
+    <!-- Home Page - More - Account -->
+    <string name="home_page_more_account_title_header">Account</string>
+    <string name="home_page_more_account_title_subHeader_login">Login</string>
+    <string name="home_page_more_account_title_subHeader_signUp">Sign Up</string>
+
+    <!-- Home Page - More - Account - SignUpActivity -->
+    <string name="home_page_more_account_sign_up_title_sub_header">Sign Up</string>
+    <string name="home_page_more_account_sign_up_email_hint">Email address</string>
+    <string name="home_page_more_account_sign_up_password_hint">Password</string>
+    <string name="home_page_more_account_sign_up_register_text">REGISTER</string>
+    <string name="home_page_more_account_sign_up_register_error_email_messages_title">Email address is blank</string>
+    <string name="home_page_more_account_sign_up_register_error_email_messages_content">Please enter an email address.</string>
+    <string name="home_page_more_account_sign_up_register_error_invalid_email_messages_title">Email address is Invalid</string>
+    <string name="home_page_more_account_sign_up_register_error_invalid_email_messages_content">Please enter an valid email address.</string>
+    <string name="home_page_more_account_sign_up_register_error_password_messages_title">Password is blank</string>
+    <string name="home_page_more_account_sign_up_register_error_password_messages_content">Please enter an password.</string>
+    <string name="home_page_more_account_sign_up_register_error_email_messages_button">Dismiss</string>
+
+    <!-- Home Page - More - Shipping -->
+    <string name="home_page_more_shipping_title_header">Shipping</string>
+    <string name="home_page_more_shipping_title_subHeader_shipping_terms">Shipping Terms</string>
+
+    <!-- Home Page - More - Shipping - ShippingTermsActivity -->
+    <string name="home_page_more_shipping_title_sub_header">Shipping Terms</string>
+    <string name="home_page_more_shipping_title_content_capital_1">SHIPPING</string>
+    <string name="home_page_more_shipping_title_content_1">Ready Stock : 1 &#8211; 3 working days</string>
+    <string name="home_page_more_shipping_title_content_1_1">Pre&#8211;order : 7 &#8211; 14 working days</string>
+    <string name="home_page_more_shipping_title_content_1_2">Bridal Gown : 15 &#8211; 30 working days</string>
+    <string name="home_page_more_shipping_title_content_1_3">\n(Flat rate shipping fees)</string>
+
+    <!-- English -->
+    <string name="home_page_more_shipping_title_content_2">The postage fees (POSLAJU) as below:</string>
+    <string name="home_page_more_shipping_title_content_2_1">WEST MALAYSIA &#8211; RM10.00</string>
+    <string name="home_page_more_shipping_title_content_2_2">EAST MALAYSIA &#8211; RM15.00</string>
+    <string name="home_page_more_shipping_title_content_2_3">SINGAPORE &#8211; RM50.00</string>
+
+    <!-- Chinese -->
+    <string name="home_page_more_shipping_title_content_3">本店提供的配送方式 (POSLAJU)</string>
+    <string name="home_page_more_shipping_title_content_3_1">国内运费计算 :</string>
+    <string name="home_page_more_shipping_title_content_3_2">西马 &#8211; RM10.00</string>
+    <string name="home_page_more_shipping_title_content_3_3">东马 &#8211; RM15.00</string>
+    <string name="home_page_more_shipping_title_content_3_4">新加坡 &#8211; RM50.00</string>
+
+    <!-- Japanese -->
+    <string name="home_page_more_shipping_title_content_4">配送方法と料金</string>
+    <string name="home_page_more_shipping_title_content_4_1">全部の商品はPOSLAJU（1 &#8211; 2営業日）を送信されます。</string>
+    <string name="home_page_more_shipping_title_content_4_2">以下のように記載されて配送料金です。</string>
+    <string name="home_page_more_shipping_title_content_4_3">西マレーシア &#8211; RM10</string>
+    <string name="home_page_more_shipping_title_content_4_4">東マレーシア &#8211; RM15</string>
+    <string name="home_page_more_shipping_title_content_4_5">シンガポール &#8211; RM60</string>
+
+    <!-- Home Page - More - Return Policy -->
+    <string name="home_page_more_return_policy_title_header">Return Policy</string>
+    <string name="home_page_more_return_policy_title_subHeader_return_policy">Return &amp; Exchanges</string>
+
+    <!-- Home Page - More - Return Policy - ReturnAndExchangesActivity -->
+    <string name="home_page_more_return_policy_title_sub_header">Return &amp; Exchanges</string>
+    <string name="home_page_more_return_policy_title_content_capital_1">RETURNS &amp; EXCHANGES</string>
+    <string name="home_page_more_return_policy_title_content_1">Classy Gown accept exchanges for the following reasons:</string>
+    <string name="home_page_more_return_policy_title_content_1_1">a) Incorrect merchandise received</string>
+    <string name="home_page_more_return_policy_title_content_1_2">b) Defective merchandise received</string>
+    <string name="home_page_more_return_policy_title_content_1_3">Exchanges will be done on a case by case basis for the exact same design only.</string>
+
+    <string name="home_page_more_return_policy_title_content_capital_2">TERMS</string>
+    <string name="home_page_more_return_policy_title_content_2">a) Classy Gown must be notified of an exchange within 5 days from date of shipping.</string>
+    <string name="home_page_more_return_policy_title_content_2_1">b) Merchandise must be returned in brand new condition, unwashed (without any stains or scents including but not limited to fragrances, detergent, perfume) in their original packaging.\nReturned items not received in their original state will be automatically returned to the customer. Classy Gown reserves the right to reject a return if we conclude it is not in a new condition.</string>
+    <string name="home_page_more_return_policy_title_content_2_2">c) A one to one exchange will be processed upon receipt of your package.</string>
+    <string name="home_page_more_return_policy_title_content_2_3">d) Merchandise purchased through a third party will not be eligible for an exchange.</string>
+    <string name="home_page_more_return_policy_title_content_2_4">e) Exchanges are only to be handled via Mail.</string>
+
+    <string name="home_page_more_return_policy_title_content_capital_3">CONTACT US ABOUT AN EXCHANGE</string>
+    <string name="home_page_more_return_policy_title_content_3">Please drop our Customer Care team an email at <u>classydressgown@gmail.com</u> in the following format:</string>
+    <string name="home_page_more_return_policy_title_content_3_1">Subject: Exchange for Order Number #(Please include your order number)</string>
+    <string name="home_page_more_return_policy_title_content_3_2">Item: (Item Name, Colour, and Size</string>
+    <string name="home_page_more_return_policy_title_content_3_3">Reason for exchange: Incorrect Item</string>
+    <string name="home_page_more_return_policy_title_content_3_4">Delivered** /Defective Item**</string>
+    <string name="home_page_more_return_policy_title_content_3_5">* Please attach pictured of the incorrect/defective item.</string>
+
+    <string name="home_page_more_return_policy_title_content_capital_4">INCORRECT OR DEFECTIVE MERCHANDISE</string>
+    <string name="home_page_more_return_policy_title_content_4">We apologize for our oversight. An exchange for the exact same design will be processed. We do not have a cash refund policy. Please note that all shipping fees will be borne by the customer.</string>
+
+    <string name="home_page_more_return_policy_title_content_4_1">\nThe following are not considered defect attributes and are non-eligible for exchanges.</string>
+    <string name="home_page_more_return_policy_title_content_4_2">a) Measurements may vary 1&#8211;3cm from what is stated due to mass manufacturing processes.</string>
+    <string name="home_page_more_return_policy_title_content_4_3">b) True color of an item may vary slightly due to studio lighting and inevitable discrepancies arising from individual computer and/or tech device.</string>
+
+    <!-- Home Page - More - Follow Us -->
+    <string name="home_page_more_follow_us_title_header">Follow Us</string>
+    <string name="home_page_more_follow_us_title_subHeader_facebook">Facebook</string>
+    <string name="home_page_more_follow_us_title_subHeader_instagram">Instagram</string>
+
+    <!-- Home Page - More - Contact Us -->
+    <string name="home_page_more_contact_us_title_header">Contact Us</string>
+    <string name="home_page_more_contact_us_title_subHeader_contact_us">Send An Enquiry Form</string>
+
+    <!-- Home Page - More - About -->
+    <string name="home_page_more_about_title_header">About</string>
+    <string name="home_page_more_about_title_subHeader_about">About Classy Gown</string>
+
+    <!-- Home Page - More - About - AboutActivity -->
+    <string name="home_page_more_about_activity_title_header">About Classy Gown</string>
+    <string name="home_page_more_about_activity_title_sub_header">ABOUT CLASSY</string>
+    <string name="home_page_more_about_activity_content_1">"CLASSY" a brand new label with the meaning of stylish and sophisticated.</string>
+    <string name="home_page_more_about_activity_content_2">CLASSY is a Malaysia&#8211;based online shopping store, with the vision to serve the ladies with HIGH QUALITY of dress and gown. For all prom wear, cocktail dress, pageant gowns, evening dress, prom dress and bridal wedding dress.</string>
+    <string name="home_page_more_about_activity_content_3">Whether you\'re setting out on a nerves&#8211;filled first date, celebrating a seriously romantic occasion or dressing for your best friend wedding, CLASSY will put an end to that what&#8211;do&#8211;I&#8211;wear dilemma.</string>
+</resources>

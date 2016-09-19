@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorAccentOther">#FF0087</color>
+
+    <!-- Style Dialog Color-->
+    <color name="primary">#E43F3F</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Splash Screen Color -->
+    <color name="splash_screen_color_background">#FF0087</color>
+
+    <!-- Home Page Color -->
+    <color name="home_page_color_background">#FFFFFF</color>
+    <color name="home_page_color_text">#000000</color>
+    <color name="home_page_color_header_background">#FF0087</color>
+    <color name="tabsScrollColor">#004D40</color>
+    <color name="tab_text_color">#FFFFFF</color>
+    <color name="tab_background">#FF0087</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <!-- Home Page - Home -->
+    <color name="home_page_home_color_background">#FFFFFF</color>
+    <color name="home_page_home_header_color_background">#EFEFF4</color>
+    <!-- Home Page - Home Fragment -->
+    <color name="home_page_home_header_text_color">#000000</color>
+
+    <!-- Home Page - Home - Recent Product -->
+    <color name="home_page_home_recent_product_background_color">#FFFFFF</color>
+    <color name="home_page_home_recent_product_text_color">#000000</color>
+
+    <!-- Home Page - Home - Product Description -->
+    <color name="home_page_home_product_description_activity_color_background">#FFFFFF</color>
+    <color name="home_page_home_product_description_activity_color_text">#000000</color>
+    <color name="home_page_home_product_description_activity_add_to_cart_background">#000000</color>
+    <color name="home_page_home_product_description_activity_add_to_cart_text_color">#FFFFFF</color>
+    <color name="home_page_home_product_description_activity_grey_color_text">#A9A9A9</color>
+    <color name="home_page_home_product_description_activity_segment_text_color">#ffFF0087</color>
+
+    <!-- Home Page - Cart -->
+    <color name="home_page_cart_activity_color_background">#FFFFFF</color>
+    <color name="home_page_cart_activity_color_text">#000000</color>
+
+    <!-- Home Page - Shop -->
+    <color name="home_page_shop_color_background">#FFFFFF</color>
+
+    <!-- Home Page - Order -->
+    <color name="home_page_order_color_background">#FFFFFF</color>
+    <color name="home_page_order_login_text_color">#d3d3d3</color>
+    <color name="home_page_color_text_order_info">#000000</color>
+
+    <!-- Home Page - LoginActivity -->
+    <color name="home_page_order_login_color_background">#FFFFFF</color>
+
+    <!-- Home Page - Login - LoginActivity -->
+    <color name="home_page_login_activity_color_background">#FFFFFF</color>
+    <color name="home_page_login_activity_color_login_button_background">#000000</color>
+    <color name="home_page_login_activity_color_email_password_text">#000000</color>
+    <color name="home_page_login_activity_color_url_blue">#00FFFF</color>
+    <color name="home_page_login_activity_color_text">#000000</color>
+    <!-- Home Page - More - Account - SignUpActivity - Rectangle -->
+    <color name="home_page_login_activity_color_background_hint_color">#d3d3d3</color>
+
+    <!-- Home Page - Login - LoginActivity - ForgotPasswordActivity -->
+    <color name="home_page_login_activity_color_background_forgot_password_activity">#FFFFFF</color>
+    <color name="home_page_login_activity_color_forgot_password_text_color">#000000</color>
+    <color name="home_page_forgot_activity_color_email_password_text">#000000</color>
+    <color name="home_page_forgot_activity_color_background_hint_color">#d3d3d3</color>
+    <color name="home_page_forgot_activity_color_forgot_button_background">#000000</color>
+
+    <!-- Home Page - More -->
+    <color name="home_page_more_color_background">#FFFFFF</color>
+
+    <!-- Home Page - More - SubHeader -->
+    <color name="home_page_color_more_sub_header_background">#FF0087</color>
+    <color name="home_page_more_color_background_sub_header">#FFFFFF</color>
+    <color name="home_page_more_color_text_title_sub_header">#FFFFFF</color>
+
+    <!-- Home Page - More - Account -->
+    <color name="home_page_more_account_color_background">#FFFFFF</color>
+    <color name="home_page_more_account_header_color">#d3d3d3</color>
+    <color name="home_page_more_account_header_text_color">#303030</color>
+    <color name="home_page_more_account_sub_header_text_color">#000000</color>
+
+    <!-- Home Page - More - Account - SignUpActivity -->
+    <color name="home_page_more_sign_up_activity_color_background">#FFFFFF</color>
+    <color name="home_page_more_sign_up_activity_color_register_button_background">#000000</color>
+    <color name="home_page_more_sign_up_activity_color_email_password_text">#000000</color>
+    <!-- Home Page - More - Account - SignUpActivity - Rectangle -->
+    <color name="home_page_more_sign_up_activity_color_background_hint_color">#d3d3d3</color>
+
+
+    <!-- Home Page - More - Shipping -->
+    <color name="home_page_more_shipping_color_background">#FFFFFF</color>
+    <color name="home_page_more_shipping_header_color">#d3d3d3</color>
+    <color name="home_page_more_shipping_header_text_color">#303030</color>
+    <color name="home_page_more_shipping_sub_header_text_color">#000000</color>
+
+    <!-- Home Page - More - Shipping - ShippingTermsActivity-->
+    <color name="home_page_more_shipping_terms_activity_color_background">#FFFFFF</color>
+
+    <!-- Home Page - More - Return Policy -->
+    <color name="home_page_more_return_policy_color_background">#FFFFFF</color>
+    <color name="home_page_more_return_policy_header_color">#d3d3d3</color>
+    <color name="home_page_more_return_policy_header_text_color">#303030</color>
+    <color name="home_page_more_return_policy_sub_header_text_color">#000000</color>
+
+    <!-- Home Page - More - Return Policy - ReturnsAndExchangesActivity -->
+    <color name="home_page_more_return_policy_activity_color_background">#FFFFFF</color>
+
+    <!-- Home Page - More - Follow Us -->
+    <color name="home_page_more_follow_us_color_background">#FFFFFF</color>
+    <color name="home_page_more_follow_us_header_color">#d3d3d3</color>
+    <color name="home_page_more_follow_us_header_text_color">#303030</color>
+    <color name="home_page_more_follow_us_sub_header_text_color">#000000</color>
+
+    <!-- Home Page - More - Contact Us -->
+    <color name="home_page_more_contact_us_color_background">#FFFFFF</color>
+    <color name="home_page_more_contact_us_header_color">#d3d3d3</color>
+    <color name="home_page_more_contact_us_header_text_color">#303030</color>
+    <color name="home_page_more_contact_us_sub_header_text_color">#000000</color>
+
+    <!-- Home Page - More - About -->
+    <color name="home_page_more_about_color_background">#FFFFFF</color>
+    <color name="home_page_more_about_header_color">#d3d3d3</color>
+    <color name="home_page_more_about_header_text_color">#303030</color>
+    <color name="home_page_more_about_sub_header_text_color">#000000</color>
+
+    <!-- Home Page - More - About - AboutActivity -->
+    <color name="home_page_more_about_activity_color_background">#FFFFFF</color>
+    <color name="home_page_more_about_activity_color_header_text">#000000</color>
+    <color name="home_page_more_about_activity_color_content_text">#000000</color>
+</resources>

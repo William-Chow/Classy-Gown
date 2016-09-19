@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_more_follow_us_color_background">
+
+    <RelativeLayout
+        android:id="@+id/rlHomePageMoreClassyGownFollowUsHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/home_page_more_follow_us_header_color"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="@string/home_page_more_follow_us_title_header"
+            android:textColor="@color/home_page_more_follow_us_header_text_color"
+            android:textSize="@dimen/_16sdp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlHomePageMoreClassyGownFollowUsHeader">
+
+        <RelativeLayout
+            android:id="@+id/rlFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivFacebookIcon"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/facebook_icon" />
+
+            <TextView
+                android:id="@+id/tvFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/ivFacebookIcon"
+                android:layout_toRightOf="@+id/ivFacebookIcon"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/home_page_more_follow_us_title_subHeader_facebook"
+                android:textColor="@color/home_page_more_follow_us_sub_header_text_color"
+                android:textSize="@dimen/_12sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="false"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:adjustViewBounds="false"
+                android:src="@drawable/next" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/vLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rlFacebook"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rlInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vLine"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivInstagramIcon"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/instagram" />
+
+            <TextView
+                android:id="@+id/tvInstagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/ivInstagramIcon"
+                android:layout_toRightOf="@+id/ivInstagramIcon"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/home_page_more_follow_us_title_subHeader_instagram"
+                android:textColor="@color/home_page_more_follow_us_sub_header_text_color"
+                android:textSize="@dimen/_12sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="false"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:adjustViewBounds="false"
+                android:src="@drawable/next" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

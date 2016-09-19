@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/home_page_home_header_color_background">
+
+    <TextView
+        android:id="@+id/tvTextFeatured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/home_page_home_image_slider_title_text"
+        android:textColor="@color/home_page_home_header_text_color"
+        android:textSize="@dimen/_13sdp" />
+
+
+</RelativeLayout>

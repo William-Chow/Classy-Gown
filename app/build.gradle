@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.classygown"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard.cfg'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.intuit.sdp:sdp-android:1.0.2'
+    compile files('signpost-commonshttp4-1.2.1.1.jar')
+    compile files('signpost-core-1.2.1.1.jar')
+    compile files('common-lang3.jar')
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.commit451:PhotoView:1.2.4'
+    compile 'com.daimajia.androidanimations:library:1.0.3@aar'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:cardview-v7:23.0.0'
+    compile project(':ImageSlider')
+    compile project(':SweetAlertDialog')
+    compile project(':Segmented')
+}

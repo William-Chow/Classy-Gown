@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_more_return_policy_color_background">
+
+    <RelativeLayout
+        android:id="@+id/rlHomePageMoreClassyGownReturnPolicyHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@color/home_page_more_return_policy_header_color"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="@string/home_page_more_return_policy_title_header"
+            android:textColor="@color/home_page_more_return_policy_header_text_color"
+            android:textSize="@dimen/_16sdp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlReturnAndExchanges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlHomePageMoreClassyGownReturnPolicyHeader">
+
+        <TextView
+            android:id="@+id/tvReturnAndExchanges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="@string/home_page_more_return_policy_title_subHeader_return_policy"
+            android:textColor="@color/home_page_more_return_policy_sub_header_text_color"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="false"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/next" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

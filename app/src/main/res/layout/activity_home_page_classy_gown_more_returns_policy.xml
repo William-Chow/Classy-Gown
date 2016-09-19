@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_more_return_policy_activity_color_background">
+
+    <include
+        android:id="@+id/includeHomePageMoreReturnPolicyClassyGownHeader"
+        layout="@layout/include_home_page_classy_gown_header" />
+
+    <RelativeLayout
+        android:id="@+id/rlMoreSubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/includeHomePageMoreReturnPolicyClassyGownHeader">
+
+        <include
+            android:id="@+id/includeHomePageMoreReturnPolicyActivityClassyGownSubHeader"
+            layout="@layout/include_home_page_more_classy_gown_sub_header" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/rlMoreSubHeader">
+
+        <RelativeLayout
+            android:id="@+id/rlContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_8sdp">
+
+            <RelativeLayout
+                android:id="@+id/rlContent_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/home_page_more_rectangle"
+                android:padding="@dimen/_10sdp">
+
+                <include
+                    android:id="@+id/includeContent_1"
+                    layout="@layout/include_home_page_more_classy_gown_return_policy_content_1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlContent_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlContent_1"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/home_page_more_rectangle"
+                android:padding="@dimen/_10sdp">
+
+                <include
+                    android:id="@+id/includeContent_2"
+                    layout="@layout/include_home_page_more_classy_gown_return_policy_content_2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlContent_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlContent_2"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/home_page_more_rectangle"
+                android:padding="@dimen/_10sdp">
+
+                <include
+                    android:id="@+id/includeContent_3"
+                    layout="@layout/include_home_page_more_classy_gown_return_policy_content_3" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlContent_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlContent_3"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/home_page_more_rectangle"
+                android:padding="@dimen/_10sdp">
+
+                <include
+                    android:id="@+id/includeContent_4"
+                    layout="@layout/include_home_page_more_classy_gown_return_policy_content_4" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

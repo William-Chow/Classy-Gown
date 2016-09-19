@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_more_about_activity_color_background">
+
+    <include
+        android:id="@+id/includeHomePageMoreAboutClassyGownHeader"
+        layout="@layout/include_home_page_classy_gown_header" />
+
+    <RelativeLayout
+        android:id="@+id/rlMoreSubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/includeHomePageMoreAboutClassyGownHeader">
+
+        <include
+            android:id="@+id/includeHomePageMoreAboutActivityClassyGownSubHeader"
+            layout="@layout/include_home_page_more_classy_gown_sub_header" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlMoreSubHeader"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/rlContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_2sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:padding="@dimen/_8sdp"
+                android:background="@drawable/home_page_more_rectangle">
+
+                <TextView
+                    android:id="@+id/tvAboutTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="@string/home_page_more_about_activity_title_sub_header"
+                    android:textColor="@color/home_page_more_about_activity_color_header_text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:id="@+id/tvContent_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAboutTitle"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="@string/home_page_more_about_activity_content_1"
+                    android:textColor="@color/home_page_more_about_activity_color_content_text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:id="@+id/tvContent_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvContent_1"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="@string/home_page_more_about_activity_content_2"
+                    android:textColor="@color/home_page_more_about_activity_color_content_text"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:id="@+id/tvContent_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvContent_2"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="@string/home_page_more_about_activity_content_3"
+                    android:textColor="@color/home_page_more_about_activity_color_content_text"
+                    android:textSize="@dimen/_14sdp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
